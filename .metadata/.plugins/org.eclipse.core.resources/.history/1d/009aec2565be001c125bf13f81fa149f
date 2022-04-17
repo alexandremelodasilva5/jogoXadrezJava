@@ -1,0 +1,19 @@
+package chess;
+
+import boardGame.Board;
+
+public class ChessMatch {
+	private Board board;
+	
+	public ChessMatch() {
+		setBoard(new Board(8, 8));
+	}
+
+	public Board getBoard() {
+		return board;
+	}
+
+	public void setBoard(Board board) {
+		this.board = board;
+	}
+}
