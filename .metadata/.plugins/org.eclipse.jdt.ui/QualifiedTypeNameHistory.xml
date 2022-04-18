@@ -2,5 +2,8 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="boardGame.Position"/>
+    <fullyQualifiedTypeName name="boardGame.Piece"/>
     <fullyQualifiedTypeName name="boardGame.Board"/>
+    <fullyQualifiedTypeName name="chess.ChessPiece"/>
+    <fullyQualifiedTypeName name="chess.ChessMatch"/>
 </qualifiedTypeNameHistroy>
