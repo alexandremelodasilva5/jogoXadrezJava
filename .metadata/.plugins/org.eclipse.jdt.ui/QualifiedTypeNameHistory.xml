@@ -3,11 +3,14 @@
     <fullyQualifiedTypeName name="boardGame.Piece"/>
     <fullyQualifiedTypeName name="boardGame.Board"/>
     <fullyQualifiedTypeName name="chess.ChessMatch"/>
-    <fullyQualifiedTypeName name="chess.ChessPiece"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="chess.pieces.Rook"/>
-    <fullyQualifiedTypeName name="boardGame.Position"/>
     <fullyQualifiedTypeName name="chess.pieces.King"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="boardGame.BoardException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="chess.ChessException"/>
+    <fullyQualifiedTypeName name="boardGame.Position"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="chess.ChessPiece"/>
+    <fullyQualifiedTypeName name="chess.ChessPosition"/>
+    <fullyQualifiedTypeName name="chess.Color"/>
 </qualifiedTypeNameHistroy>
