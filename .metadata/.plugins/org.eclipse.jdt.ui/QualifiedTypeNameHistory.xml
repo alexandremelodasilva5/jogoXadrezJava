@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="boardGame.Board"/>
-    <fullyQualifiedTypeName name="chess.ChessMatch"/>
     <fullyQualifiedTypeName name="chess.pieces.Rook"/>
     <fullyQualifiedTypeName name="chess.pieces.King"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -13,7 +12,8 @@
     <fullyQualifiedTypeName name="chess.ChessPosition"/>
     <fullyQualifiedTypeName name="application.UI"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-    <fullyQualifiedTypeName name="chess.ChessPiece"/>
-    <fullyQualifiedTypeName name="boardGame.Position"/>
     <fullyQualifiedTypeName name="chess.ChessException"/>
+    <fullyQualifiedTypeName name="chess.ChessMatch"/>
+    <fullyQualifiedTypeName name="boardGame.Position"/>
+    <fullyQualifiedTypeName name="chess.ChessPiece"/>
 </qualifiedTypeNameHistroy>
