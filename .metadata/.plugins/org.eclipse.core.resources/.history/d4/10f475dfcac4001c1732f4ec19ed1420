@@ -166,7 +166,7 @@ public class ChessMatch {
 						Position source = ((ChessPiece)p).getChessPosition().toPosition();
 						Position target = new Position(i,j);
 						Piece capturedPiece = makeMove(source, target);
-						boolean testCheck = testCheck(color);
+						boolean testCheck = testCheckMate(color);
 						undoMove(source, target, capturedPiece);
 						if(!testCheck) {
 							return false;

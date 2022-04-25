@@ -72,7 +72,7 @@ public class ChessMatch {
 		}
 		check = (testCheck(opponent(currentPlayer)))?true:false;
 		
-		if(testCheckMate(opponent(currentPlayer))){
+		if(testCheckMate(opponent(currentPlayer)){
 			checkMate = true;
 		}else{
 			nextTurn();
@@ -166,7 +166,7 @@ public class ChessMatch {
 						Position source = ((ChessPiece)p).getChessPosition().toPosition();
 						Position target = new Position(i,j);
 						Piece capturedPiece = makeMove(source, target);
-						boolean testCheck = testCheck(color);
+						boolean testCheck = testCheckMate(color);
 						undoMove(source, target, capturedPiece);
 						if(!testCheck) {
 							return false;

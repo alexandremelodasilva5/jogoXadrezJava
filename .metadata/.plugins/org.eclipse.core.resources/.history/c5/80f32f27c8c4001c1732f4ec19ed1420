@@ -71,13 +71,7 @@ public class ChessMatch {
 			throw new ChessException("You can't put yourself in check");
 		}
 		check = (testCheck(opponent(currentPlayer)))?true:false;
-		
-		if(testCheckMate(opponent(currentPlayer))){
-			checkMate = true;
-		}else{
-			nextTurn();
-		}
-		
+		nextTurn();
 		return (ChessPiece)capturedPiece;
 	}
 	
@@ -166,7 +160,7 @@ public class ChessMatch {
 						Position source = ((ChessPiece)p).getChessPosition().toPosition();
 						Position target = new Position(i,j);
 						Piece capturedPiece = makeMove(source, target);
-						boolean testCheck = testCheck(color);
+						boolean testCheck = testCheckMate(color);
 						undoMove(source, target, capturedPiece);
 						if(!testCheck) {
 							return false;
