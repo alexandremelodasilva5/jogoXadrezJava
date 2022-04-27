@@ -10,7 +10,7 @@ public class Pawn extends ChessPiece {
 	
 	private ChessMatch chessmatch;
 
-	public Pawn(Board board, Color color, ChessMatch chessmatch) {
+	public Pawn(Board board, Color color) {
 		super(board, color);
 		this.chessmatch = chessmatch;
 	}

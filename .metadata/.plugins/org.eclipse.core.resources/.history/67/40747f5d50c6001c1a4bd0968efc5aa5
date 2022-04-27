@@ -179,7 +179,7 @@ public class ChessMatch {
 		// #specialmove en passant
 		if (p instanceof Pawn) {
 			if (source.getColumn() != target.getColumn() && capturedPiece == enPassantVulnerable) {
-				ChessPiece pawn = (ChessPiece)board.removePiece(target);
+				ChessPiece pawn = (Chesspiece) board.removePiece(target);
 				Position pawnPosition;
 				if (p.getColor() == Color.WHITE) {
 					pawnPosition = new Position(3, target.getColumn());
@@ -187,6 +187,9 @@ public class ChessMatch {
 					pawnPosition = new Position(4, target.getColumn());
 				}
 				board.placePiece(pawn, pawnPosition);
+				capturedPiece = board.removePiece(pawnPosition);
+				capturedPieces.add(capturedPiece);
+				piecesOnTheBoard.remove(capturedPiece);
 			}
 		}
 	}
