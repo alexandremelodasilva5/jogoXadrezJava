@@ -128,17 +128,7 @@ public class ChessMatch {
 		Position pos = promoted.getChessPosition().toPosition();
 		Piece p = board.removePiece(pos);
 		piecesOnTheBoard.remove(p);
-		ChessPiece newPiece = newPiece(type, promoted.getColor());
-		board.placePiece(newPiece, pos);
-		piecesOnTheBoard.add(newPiece);
-		return newPiece;
-	}
-	
-	private ChessPiece newPiece (String type, Color color) {
-		if(type.equals("B")) return new Bishop(board, color);
-		if(type.equals("N")) return new Knight(board, color);
-		if(type.equals("R")) return new Rook(board, color);
-		return new Queen(board, color);
+		
 	}
 
 	private Piece makeMove(Position source, Position target) {

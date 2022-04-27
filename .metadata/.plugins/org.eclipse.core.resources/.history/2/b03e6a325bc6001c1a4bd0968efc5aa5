@@ -128,10 +128,9 @@ public class ChessMatch {
 		Position pos = promoted.getChessPosition().toPosition();
 		Piece p = board.removePiece(pos);
 		piecesOnTheBoard.remove(p);
-		ChessPiece newPiece = newPiece(type, promoted.getColor());
-		board.placePiece(newPiece, pos);
-		piecesOnTheBoard.add(newPiece);
-		return newPiece;
+		
+		
+		
 	}
 	
 	private ChessPiece newPiece (String type, Color color) {
